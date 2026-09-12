@@ -8,9 +8,9 @@ Student: Vojislav Ivanović, 4004/2024
 
 ## Problem
 
-Sistemi javnih bicikala su automatizovani sistemi u kojima korisnik uzima bicikl na jednoj stanici i vraća ga na bilo kojoj drugoj. Operateru sistema je važno da unapred zna koliko će bicikala biti potrebno u kom trenutku, jer od toga zavisi preraspodela bicikala između stanica, planiranje održavanja i dimenzionisanje sistema.
+Sistemi javnih bicikala su automatizovani sistemi u kojima korisnik uzima bicikl na jednoj stanici i vraća ga na bilo kojoj drugoj. Operateru je važno da unapred zna koliko će bicikala biti potrebno u kom trenutku, jer od toga zavisi raspoređivanje ekipa koje bicikle preraspodeljuju, planiranje održavanja i dimenzionisanje sistema.
 
-Projekat predviđa broj iznajmljivanja u sistemu Capital Bikeshare u Vašingtonu, na osnovu kalendarskih i vremenskih podataka. Isti problem je posmatran na dva nivoa, satnom i dnevnom, i u dve postavke, kao regresija broja iznajmljivanja i kao klasifikacija nivoa opterećenja na nisko, srednje i visoko.
+Projekat predviđa ukupan broj iznajmljivanja u sistemu Capital Bikeshare u Vašingtonu, na osnovu kalendarskih i vremenskih podataka. Podaci su agregirani na nivou celog sistema, bez informacija o pojedinačnim stanicama, pa model odgovara na pitanje koliko i kada, a ne i gde. Isti problem je posmatran na dva nivoa, satnom i dnevnom, i u dve postavke, kao regresija broja iznajmljivanja i kao klasifikacija nivoa opterećenja na nisko, srednje i visoko.
 
 ---
 
